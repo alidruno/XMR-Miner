@@ -14,9 +14,9 @@ In index.html are this settings to be adjusted as needed:
 - Pool
 - XMR Wallet (we use same address and also same
 - Miner name (to work fusioned together for same target across the world)
-- Threads (-1 means unlimited, automatic by default, 100 full capacity)
+- Threads (-1 means unlimited, automatic by default, --cpu-max-threads=100 for full capacity)
 - Miner Password (Optional, as Moneroocean does not use password, if your pool does, it is usually "x",
-                and as [https://monero.hasvault.pro](https://monero.hashvault.pro) uses them as identifier)
+          and as [https://monero.hasvault.pro](https://monero.hashvault.pro) uses them as identifier)
 
 
 # Running
