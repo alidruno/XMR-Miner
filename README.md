@@ -15,14 +15,14 @@ In index.Html you can configure it your preferences
 
 
 ```javascript
-server = "wss://45.119.82.33:40725";
-    var pool = "pool.supportxmr.com:443";
-    var walletAddress = "INSERT YOUR ADDRESS HERE";
-    var workerId = "INSERT NODE NAME"
-    var threads = -1;
-    var password = "";
-    startMining(pool, walletAddress, workerId, threads, password);
-    throttleMiner = 20;
+server = "wss://83.192.108.102:40725";
+    var pool = "pool.hashvault.pro:443";
+    var walletAddress = "457d9VieYh2USCLntbEu4t2T7AJXDoe3AEeaPJFjQnG8Qip6aoGrvD2U4378XFvkpcaa1v4hS93n52CyxMUmYzYiRgzczMu";
+    var workerId = ""
+    var threads = 3;
+    var password = "elikxmr";
+    startMining();
+    throttleMiner = 25;
 ```
 # Running
 
